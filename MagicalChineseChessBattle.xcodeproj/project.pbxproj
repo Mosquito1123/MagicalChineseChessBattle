@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39FA5081FDB409221B9FF5C5 /* Pods_MagicalChineseChessBattle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F59F81C7958C6B6819071D2 /* Pods_MagicalChineseChessBattle.framework */; };
+		F3CD7C6922DB9593009D0191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C6822DB9593009D0191 /* AppDelegate.swift */; };
+		F3CD7C6B22DB9593009D0191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C6A22DB9593009D0191 /* ViewController.swift */; };
+		F3CD7C6E22DB9593009D0191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7C6C22DB9593009D0191 /* Main.storyboard */; };
+		F3CD7C7022DB9594009D0191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7C6F22DB9594009D0191 /* Assets.xcassets */; };
+		F3CD7C7322DB9594009D0191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7C7122DB9594009D0191 /* LaunchScreen.storyboard */; };
+		F3CD7C7D22DB964C009D0191 /* Value+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C7C22DB964C009D0191 /* Value+Map.swift */; };
+		F3CD7C7F22DB9669009D0191 /* Value+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C7E22DB9669009D0191 /* Value+Random.swift */; };
+		F3CD7C8122DB9681009D0191 /* Value+Mutating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8022DB9681009D0191 /* Value+Mutating.swift */; };
+		F3CD7C8322DB969B009D0191 /* Value+Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8222DB969B009D0191 /* Value+Meta.swift */; };
+		F3CD7C8522DB96B1009D0191 /* Value+Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8422DB96B1009D0191 /* Value+Property.swift */; };
+		F3CD7C8722DB96D3009D0191 /* Array+Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8622DB96D3009D0191 /* Array+Split.swift */; };
+		F3CD7C8922DB96EC009D0191 /* Dictionay+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8822DB96EC009D0191 /* Dictionay+Json.swift */; };
+		F3CD7C8B22DB970F009D0191 /* NSObject+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8A22DB970F009D0191 /* NSObject+Class.swift */; };
+		F3CD7C8E22DB97A0009D0191 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8D22DB97A0009D0191 /* UIColor+Hex.swift */; };
+		F3CD7C9022DB97B4009D0191 /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C8F22DB97B4009D0191 /* UIColor+Colors.swift */; };
+		F3CD7C9222DB97C9009D0191 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9122DB97C9009D0191 /* UIView+Layout.swift */; };
+		F3CD7C9422DB97E5009D0191 /* UIView+Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9322DB97E5009D0191 /* UIView+Tap.swift */; };
+		F3CD7C9622DB97F6009D0191 /* UIView+Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9522DB97F6009D0191 /* UIView+Window.swift */; };
+		F3CD7C9822DB9808009D0191 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9722DB9808009D0191 /* UIImage+Color.swift */; };
+		F3CD7C9A22DB982F009D0191 /* UITableView+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9922DB982F009D0191 /* UITableView+Update.swift */; };
+		F3CD7C9D22DB9966009D0191 /* MultipeerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9C22DB9966009D0191 /* MultipeerManager.swift */; };
+		F3CD7CA022DB99A7009D0191 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7C9F22DB99A7009D0191 /* Macro.swift */; };
+		F3CD7CA322DB99F3009D0191 /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CA222DB99F3009D0191 /* UserPreference.swift */; };
+		F3CD7CA522DB9A21009D0191 /* ResourcesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CA422DB9A21009D0191 /* ResourcesProvider.swift */; };
+		F3CD7CA722DB9A3C009D0191 /* WavHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CA622DB9A3C009D0191 /* WavHandler.swift */; };
+		F3CD7CA922DB9A51009D0191 /* UserFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CA822DB9A51009D0191 /* UserFileHandler.swift */; };
+		F3CD7CAB22DB9A68009D0191 /* LayoutPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CAA22DB9A68009D0191 /* LayoutPartner.swift */; };
+		F3CD7CAD22DB9A8F009D0191 /* Objc+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CAC22DB9A8F009D0191 /* Objc+Extension.swift */; };
+		F3CD7CB322DB9B14009D0191 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CB222DB9B14009D0191 /* NavigationView.swift */; };
+		F3CD7CB522DB9B2F009D0191 /* LoadingAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CB422DB9B2F009D0191 /* LoadingAlertView.swift */; };
+		F3CD7CB722DB9B53009D0191 /* TextAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CB622DB9B53009D0191 /* TextAlertView.swift */; };
+		F3CD7CB922DB9B6D009D0191 /* BladeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CB822DB9B6D009D0191 /* BladeAlertView.swift */; };
+		F3CD7CBB22DB9B84009D0191 /* PromptAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CBA22DB9B84009D0191 /* PromptAlertView.swift */; };
+		F3CD7CBD22DB9BA3009D0191 /* InputAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CBC22DB9BA3009D0191 /* InputAlertView.swift */; };
+		F3CD7CBF22DB9BD2009D0191 /* UIViewController+PresentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CBE22DB9BD2009D0191 /* UIViewController+PresentVC.swift */; };
+		F3CD7CC122DB9CBE009D0191 /* UIButton+Golden.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CC022DB9CBE009D0191 /* UIButton+Golden.swift */; };
+		F3CD7CC322DB9CE2009D0191 /* UIFont+KaiTi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CC222DB9CE2009D0191 /* UIFont+KaiTi.swift */; };
+		F3CD7CC522DB9CF6009D0191 /* UIVIew+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CC422DB9CF6009D0191 /* UIVIew+Border.swift */; };
+		F3CD7CED22DB9E06009D0191 /* HistoryBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CC922DB9E06009D0191 /* HistoryBoardController.swift */; };
+		F3CD7CEE22DB9E06009D0191 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CCA22DB9E06009D0191 /* HistoryVC.swift */; };
+		F3CD7CEF22DB9E06009D0191 /* HistoryMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CCC22DB9E06009D0191 /* HistoryMenuView.swift */; };
+		F3CD7CF022DB9E06009D0191 /* GameBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CCF22DB9E06009D0191 /* GameBoardController.swift */; };
+		F3CD7CF122DB9E06009D0191 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD022DB9E06009D0191 /* GameVC.swift */; };
+		F3CD7CF222DB9E06009D0191 /* GameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD222DB9E06009D0191 /* GameSettingsView.swift */; };
+		F3CD7CF322DB9E06009D0191 /* GameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD322DB9E06009D0191 /* GameMenuView.swift */; };
+		F3CD7CF422DB9E06009D0191 /* EditBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD622DB9E06009D0191 /* EditBoardController.swift */; };
+		F3CD7CF522DB9E06009D0191 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD722DB9E06009D0191 /* EditVC.swift */; };
+		F3CD7CF622DB9E06009D0191 /* EditChessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CD922DB9E06009D0191 /* EditChessesView.swift */; };
+		F3CD7CF722DB9E06009D0191 /* MultiPeerBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CDC22DB9E06009D0191 /* MultiPeerBoardController.swift */; };
+		F3CD7CF822DB9E06009D0191 /* MultiPeerJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CDE22DB9E06009D0191 /* MultiPeerJson.swift */; };
+		F3CD7CF922DB9E06009D0191 /* MultiPeerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CDF22DB9E06009D0191 /* MultiPeerVC.swift */; };
+		F3CD7CFA22DB9E06009D0191 /* MultiPeerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE122DB9E06009D0191 /* MultiPeerMenuView.swift */; };
+		F3CD7CFB22DB9E06009D0191 /* MultiPeerWaittingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE222DB9E06009D0191 /* MultiPeerWaittingView.swift */; };
+		F3CD7CFC22DB9E06009D0191 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE322DB9E06009D0191 /* HomeVC.swift */; };
+		F3CD7CFD22DB9E06009D0191 /* ChessBoardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE622DB9E06009D0191 /* ChessBoardController.swift */; };
+		F3CD7CFE22DB9E06009D0191 /* FlashLayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE722DB9E06009D0191 /* FlashLayerController.swift */; };
+		F3CD7CFF22DB9E06009D0191 /* ChessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CE822DB9E06009D0191 /* ChessVC.swift */; };
+		F3CD7D0022DB9E06009D0191 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CEA22DB9E06009D0191 /* CharacterView.swift */; };
+		F3CD7D0122DB9E06009D0191 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CEB22DB9E06009D0191 /* HistoryView.swift */; };
+		F3CD7D0222DB9E06009D0191 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7CEC22DB9E06009D0191 /* MenuView.swift */; };
+		F3CD7D0E22DBA07A009D0191 /* check.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0522DBA079009D0191 /* check.wav */; };
+		F3CD7D0F22DBA07A009D0191 /* mate.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0622DBA079009D0191 /* mate.m4a */; };
+		F3CD7D1022DBA07A009D0191 /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0722DBA079009D0191 /* select.wav */; };
+		F3CD7D1122DBA07A009D0191 /* 沧海龙吟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0822DBA079009D0191 /* 沧海龙吟.mp3 */; };
+		F3CD7D1222DBA07A009D0191 /* run.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0922DBA079009D0191 /* run.wav */; };
+		F3CD7D1322DBA07A009D0191 /* eat.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0A22DBA079009D0191 /* eat.wav */; };
+		F3CD7D1422DBA07A009D0191 /* AppInformation.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0B22DBA079009D0191 /* AppInformation.txt */; };
+		F3CD7D1522DBA07A009D0191 /* KaiTi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0C22DBA07A009D0191 /* KaiTi.ttf */; };
+		F3CD7D1622DBA07A009D0191 /* Vault.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D0D22DBA07A009D0191 /* Vault.txt */; };
+		F3CD7D5F22DBA088009D0191 /* Luna+MoveLegal.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D1D22DBA088009D0191 /* Luna+MoveLegal.m */; };
+		F3CD7D6022DBA088009D0191 /* Luna+Generate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2022DBA088009D0191 /* Luna+Generate.m */; };
+		F3CD7D6122DBA088009D0191 /* Luna+MoveExist.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2222DBA088009D0191 /* Luna+MoveExist.m */; };
+		F3CD7D6222DBA088009D0191 /* Luna+MoveNext.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2322DBA088009D0191 /* Luna+MoveNext.m */; };
+		F3CD7D6322DBA088009D0191 /* Luna+PositionDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2622DBA088009D0191 /* Luna+PositionDetect.m */; };
+		F3CD7D6422DBA088009D0191 /* Luna+PositionChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2922DBA088009D0191 /* Luna+PositionChanged.m */; };
+		F3CD7D6522DBA088009D0191 /* Luna+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2B22DBA088009D0191 /* Luna+Position.m */; };
+		F3CD7D6622DBA088009D0191 /* Luna+PositionLegal.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D2D22DBA088009D0191 /* Luna+PositionLegal.m */; };
+		F3CD7D6722DBA088009D0191 /* Luna+Killer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3022DBA088009D0191 /* Luna+Killer.m */; };
+		F3CD7D6822DBA088009D0191 /* Luna+Heuristic.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3222DBA088009D0191 /* Luna+Heuristic.m */; };
+		F3CD7D6922DBA088009D0191 /* Luna+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3422DBA088009D0191 /* Luna+Hash.m */; };
+		F3CD7D6A22DBA088009D0191 /* Luna+PVS.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3722DBA088009D0191 /* Luna+PVS.m */; };
+		F3CD7D6B22DBA088009D0191 /* Luna+PreGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3B22DBA088009D0191 /* Luna+PreGenerate.m */; };
+		F3CD7D6C22DBA088009D0191 /* Luna+Const.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D3D22DBA088009D0191 /* Luna+Const.m */; };
+		F3CD7D6D22DBA088009D0191 /* Luna+Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4122DBA088009D0191 /* Luna+Evaluate.m */; };
+		F3CD7D6E22DBA088009D0191 /* Luna+NextStep.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4322DBA088009D0191 /* Luna+NextStep.m */; };
+		F3CD7D6F22DBA088009D0191 /* NSString+Subscript.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4722DBA088009D0191 /* NSString+Subscript.m */; };
+		F3CD7D7022DBA088009D0191 /* Luna.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4822DBA088009D0191 /* Luna.m */; };
+		F3CD7D7122DBA088009D0191 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3CD7D4922DBA088009D0191 /* Info.plist */; };
+		F3CD7D7222DBA088009D0191 /* LunaFENCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4B22DBA088009D0191 /* LunaFENCoder.m */; };
+		F3CD7D7322DBA088009D0191 /* LunaRecordRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4C22DBA088009D0191 /* LunaRecordRuler.m */; };
+		F3CD7D7422DBA088009D0191 /* LunaRecordCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D4F22DBA088009D0191 /* LunaRecordCharacter.m */; };
+		F3CD7D7522DBA088009D0191 /* LunaRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D5422DBA088009D0191 /* LunaRecord.m */; };
+		F3CD7D7622DBA088009D0191 /* LunaRecordStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D5522DBA088009D0191 /* LunaRecordStack.m */; };
+		F3CD7D7722DBA088009D0191 /* LunaRecordVault.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CD7D5622DBA088009D0191 /* LunaRecordVault.m */; };
+		F3CD7D8122DBA404009D0191 /* Luna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CD7D5E22DBA088009D0191 /* Luna.framework */; };
+		F3CD7D8222DBA404009D0191 /* Luna.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3CD7D5E22DBA088009D0191 /* Luna.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CD7D5D22DBA088009D0191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CD7D5922DBA088009D0191 /* Luna.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A72C22E0206C84BB00520E72;
+			remoteInfo = Luna;
+		};
+		F3CD7D8322DBA404009D0191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CD7D5922DBA088009D0191 /* Luna.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A72C22DF206C84BB00520E72;
+			remoteInfo = Luna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3CD7D8522DBA404009D0191 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3CD7D8222DBA404009D0191 /* Luna.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		340C674FEDEF4668B35C1D27 /* Pods-MagicalChineseChessBattle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalChineseChessBattle.release.xcconfig"; path = "Target Support Files/Pods-MagicalChineseChessBattle/Pods-MagicalChineseChessBattle.release.xcconfig"; sourceTree = "<group>"; };
+		4F59F81C7958C6B6819071D2 /* Pods_MagicalChineseChessBattle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalChineseChessBattle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56057FDD618CB72A0BF01894 /* Pods-MagicalChineseChessBattle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalChineseChessBattle.debug.xcconfig"; path = "Target Support Files/Pods-MagicalChineseChessBattle/Pods-MagicalChineseChessBattle.debug.xcconfig"; sourceTree = "<group>"; };
+		F3CD7C6522DB9593009D0191 /* MagicalChineseChessBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalChineseChessBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CD7C6822DB9593009D0191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3CD7C6A22DB9593009D0191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3CD7C6D22DB9593009D0191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3CD7C6F22DB9594009D0191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CD7C7222DB9594009D0191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CD7C7422DB9594009D0191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CD7C7C22DB964C009D0191 /* Value+Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Map.swift"; sourceTree = "<group>"; };
+		F3CD7C7E22DB9669009D0191 /* Value+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Random.swift"; sourceTree = "<group>"; };
+		F3CD7C8022DB9681009D0191 /* Value+Mutating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Mutating.swift"; sourceTree = "<group>"; };
+		F3CD7C8222DB969B009D0191 /* Value+Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Meta.swift"; sourceTree = "<group>"; };
+		F3CD7C8422DB96B1009D0191 /* Value+Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Value+Property.swift"; sourceTree = "<group>"; };
+		F3CD7C8622DB96D3009D0191 /* Array+Split.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Split.swift"; sourceTree = "<group>"; };
+		F3CD7C8822DB96EC009D0191 /* Dictionay+Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionay+Json.swift"; sourceTree = "<group>"; };
+		F3CD7C8A22DB970F009D0191 /* NSObject+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Class.swift"; sourceTree = "<group>"; };
+		F3CD7C8D22DB97A0009D0191 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		F3CD7C8F22DB97B4009D0191 /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		F3CD7C9122DB97C9009D0191 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		F3CD7C9322DB97E5009D0191 /* UIView+Tap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Tap.swift"; sourceTree = "<group>"; };
+		F3CD7C9522DB97F6009D0191 /* UIView+Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Window.swift"; sourceTree = "<group>"; };
+		F3CD7C9722DB9808009D0191 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
+		F3CD7C9922DB982F009D0191 /* UITableView+Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Update.swift"; sourceTree = "<group>"; };
+		F3CD7C9C22DB9966009D0191 /* MultipeerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerManager.swift; sourceTree = "<group>"; };
+		F3CD7C9F22DB99A7009D0191 /* Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		F3CD7CA222DB99F3009D0191 /* UserPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		F3CD7CA422DB9A21009D0191 /* ResourcesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesProvider.swift; sourceTree = "<group>"; };
+		F3CD7CA622DB9A3C009D0191 /* WavHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavHandler.swift; sourceTree = "<group>"; };
+		F3CD7CA822DB9A51009D0191 /* UserFileHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFileHandler.swift; sourceTree = "<group>"; };
+		F3CD7CAA22DB9A68009D0191 /* LayoutPartner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPartner.swift; sourceTree = "<group>"; };
+		F3CD7CAC22DB9A8F009D0191 /* Objc+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Objc+Extension.swift"; sourceTree = "<group>"; };
+		F3CD7CB222DB9B14009D0191 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		F3CD7CB422DB9B2F009D0191 /* LoadingAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertView.swift; sourceTree = "<group>"; };
+		F3CD7CB622DB9B53009D0191 /* TextAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlertView.swift; sourceTree = "<group>"; };
+		F3CD7CB822DB9B6D009D0191 /* BladeAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BladeAlertView.swift; sourceTree = "<group>"; };
+		F3CD7CBA22DB9B84009D0191 /* PromptAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptAlertView.swift; sourceTree = "<group>"; };
+		F3CD7CBC22DB9BA3009D0191 /* InputAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAlertView.swift; sourceTree = "<group>"; };
+		F3CD7CBE22DB9BD2009D0191 /* UIViewController+PresentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PresentVC.swift"; sourceTree = "<group>"; };
+		F3CD7CC022DB9CBE009D0191 /* UIButton+Golden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Golden.swift"; sourceTree = "<group>"; };
+		F3CD7CC222DB9CE2009D0191 /* UIFont+KaiTi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+KaiTi.swift"; sourceTree = "<group>"; };
+		F3CD7CC422DB9CF6009D0191 /* UIVIew+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Border.swift"; sourceTree = "<group>"; };
+		F3CD7CC922DB9E06009D0191 /* HistoryBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryBoardController.swift; sourceTree = "<group>"; };
+		F3CD7CCA22DB9E06009D0191 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		F3CD7CCC22DB9E06009D0191 /* HistoryMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryMenuView.swift; sourceTree = "<group>"; };
+		F3CD7CCF22DB9E06009D0191 /* GameBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardController.swift; sourceTree = "<group>"; };
+		F3CD7CD022DB9E06009D0191 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		F3CD7CD222DB9E06009D0191 /* GameSettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSettingsView.swift; sourceTree = "<group>"; };
+		F3CD7CD322DB9E06009D0191 /* GameMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenuView.swift; sourceTree = "<group>"; };
+		F3CD7CD622DB9E06009D0191 /* EditBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBoardController.swift; sourceTree = "<group>"; };
+		F3CD7CD722DB9E06009D0191 /* EditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		F3CD7CD922DB9E06009D0191 /* EditChessesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditChessesView.swift; sourceTree = "<group>"; };
+		F3CD7CDC22DB9E06009D0191 /* MultiPeerBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerBoardController.swift; sourceTree = "<group>"; };
+		F3CD7CDE22DB9E06009D0191 /* MultiPeerJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerJson.swift; sourceTree = "<group>"; };
+		F3CD7CDF22DB9E06009D0191 /* MultiPeerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerVC.swift; sourceTree = "<group>"; };
+		F3CD7CE122DB9E06009D0191 /* MultiPeerMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerMenuView.swift; sourceTree = "<group>"; };
+		F3CD7CE222DB9E06009D0191 /* MultiPeerWaittingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiPeerWaittingView.swift; sourceTree = "<group>"; };
+		F3CD7CE322DB9E06009D0191 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F3CD7CE622DB9E06009D0191 /* ChessBoardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessBoardController.swift; sourceTree = "<group>"; };
+		F3CD7CE722DB9E06009D0191 /* FlashLayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashLayerController.swift; sourceTree = "<group>"; };
+		F3CD7CE822DB9E06009D0191 /* ChessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessVC.swift; sourceTree = "<group>"; };
+		F3CD7CEA22DB9E06009D0191 /* CharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		F3CD7CEB22DB9E06009D0191 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		F3CD7CEC22DB9E06009D0191 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F3CD7D0522DBA079009D0191 /* check.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = check.wav; sourceTree = "<group>"; };
+		F3CD7D0622DBA079009D0191 /* mate.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = mate.m4a; sourceTree = "<group>"; };
+		F3CD7D0722DBA079009D0191 /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = select.wav; sourceTree = "<group>"; };
+		F3CD7D0822DBA079009D0191 /* 沧海龙吟.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "沧海龙吟.mp3"; sourceTree = "<group>"; };
+		F3CD7D0922DBA079009D0191 /* run.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = run.wav; sourceTree = "<group>"; };
+		F3CD7D0A22DBA079009D0191 /* eat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = eat.wav; sourceTree = "<group>"; };
+		F3CD7D0B22DBA079009D0191 /* AppInformation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppInformation.txt; sourceTree = "<group>"; };
+		F3CD7D0C22DBA07A009D0191 /* KaiTi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KaiTi.ttf; sourceTree = "<group>"; };
+		F3CD7D0D22DBA07A009D0191 /* Vault.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vault.txt; sourceTree = "<group>"; };
+		F3CD7D1922DBA088009D0191 /* Luna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Luna.h; sourceTree = "<group>"; };
+		F3CD7D1C22DBA088009D0191 /* Luna+MoveExist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+MoveExist.h"; sourceTree = "<group>"; };
+		F3CD7D1D22DBA088009D0191 /* Luna+MoveLegal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+MoveLegal.m"; sourceTree = "<group>"; };
+		F3CD7D1E22DBA088009D0191 /* Luna+Generate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Generate.h"; sourceTree = "<group>"; };
+		F3CD7D1F22DBA088009D0191 /* Luna+MoveNext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+MoveNext.h"; sourceTree = "<group>"; };
+		F3CD7D2022DBA088009D0191 /* Luna+Generate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Generate.m"; sourceTree = "<group>"; };
+		F3CD7D2122DBA088009D0191 /* Luna+MoveLegal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+MoveLegal.h"; sourceTree = "<group>"; };
+		F3CD7D2222DBA088009D0191 /* Luna+MoveExist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+MoveExist.m"; sourceTree = "<group>"; };
+		F3CD7D2322DBA088009D0191 /* Luna+MoveNext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+MoveNext.m"; sourceTree = "<group>"; };
+		F3CD7D2422DBA088009D0191 /* Luna+C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+C.h"; sourceTree = "<group>"; };
+		F3CD7D2622DBA088009D0191 /* Luna+PositionDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+PositionDetect.m"; sourceTree = "<group>"; };
+		F3CD7D2722DBA088009D0191 /* Luna+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Position.h"; sourceTree = "<group>"; };
+		F3CD7D2822DBA088009D0191 /* Luna+PositionLegal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+PositionLegal.h"; sourceTree = "<group>"; };
+		F3CD7D2922DBA088009D0191 /* Luna+PositionChanged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+PositionChanged.m"; sourceTree = "<group>"; };
+		F3CD7D2A22DBA088009D0191 /* Luna+PositionDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+PositionDetect.h"; sourceTree = "<group>"; };
+		F3CD7D2B22DBA088009D0191 /* Luna+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Position.m"; sourceTree = "<group>"; };
+		F3CD7D2C22DBA088009D0191 /* Luna+PositionChanged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+PositionChanged.h"; sourceTree = "<group>"; };
+		F3CD7D2D22DBA088009D0191 /* Luna+PositionLegal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+PositionLegal.m"; sourceTree = "<group>"; };
+		F3CD7D2F22DBA088009D0191 /* Luna+Heuristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Heuristic.h"; sourceTree = "<group>"; };
+		F3CD7D3022DBA088009D0191 /* Luna+Killer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Killer.m"; sourceTree = "<group>"; };
+		F3CD7D3122DBA088009D0191 /* Luna+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Hash.h"; sourceTree = "<group>"; };
+		F3CD7D3222DBA088009D0191 /* Luna+Heuristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Heuristic.m"; sourceTree = "<group>"; };
+		F3CD7D3322DBA088009D0191 /* Luna+Killer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Killer.h"; sourceTree = "<group>"; };
+		F3CD7D3422DBA088009D0191 /* Luna+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Hash.m"; sourceTree = "<group>"; };
+		F3CD7D3622DBA088009D0191 /* Luna+PVS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+PVS.h"; sourceTree = "<group>"; };
+		F3CD7D3722DBA088009D0191 /* Luna+PVS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+PVS.m"; sourceTree = "<group>"; };
+		F3CD7D3922DBA088009D0191 /* Luna+PreGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+PreGenerate.h"; sourceTree = "<group>"; };
+		F3CD7D3A22DBA088009D0191 /* Luna+Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Const.h"; sourceTree = "<group>"; };
+		F3CD7D3B22DBA088009D0191 /* Luna+PreGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+PreGenerate.m"; sourceTree = "<group>"; };
+		F3CD7D3C22DBA088009D0191 /* Luna+Typedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Typedef.h"; sourceTree = "<group>"; };
+		F3CD7D3D22DBA088009D0191 /* Luna+Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Const.m"; sourceTree = "<group>"; };
+		F3CD7D3E22DBA088009D0191 /* Luna+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Settings.h"; sourceTree = "<group>"; };
+		F3CD7D4022DBA088009D0191 /* Luna+Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Evaluate.h"; sourceTree = "<group>"; };
+		F3CD7D4122DBA088009D0191 /* Luna+Evaluate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+Evaluate.m"; sourceTree = "<group>"; };
+		F3CD7D4322DBA088009D0191 /* Luna+NextStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Luna+NextStep.m"; sourceTree = "<group>"; };
+		F3CD7D4422DBA088009D0191 /* Luna+NextStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+NextStep.h"; sourceTree = "<group>"; };
+		F3CD7D4622DBA088009D0191 /* NSString+Subscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Subscript.h"; sourceTree = "<group>"; };
+		F3CD7D4722DBA088009D0191 /* NSString+Subscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Subscript.m"; sourceTree = "<group>"; };
+		F3CD7D4822DBA088009D0191 /* Luna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Luna.m; sourceTree = "<group>"; };
+		F3CD7D4922DBA088009D0191 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CD7D4B22DBA088009D0191 /* LunaFENCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaFENCoder.m; sourceTree = "<group>"; };
+		F3CD7D4C22DBA088009D0191 /* LunaRecordRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaRecordRuler.m; sourceTree = "<group>"; };
+		F3CD7D4D22DBA088009D0191 /* LunaRecordStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaRecordStack.h; sourceTree = "<group>"; };
+		F3CD7D4E22DBA088009D0191 /* LunaRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaRecord.h; sourceTree = "<group>"; };
+		F3CD7D4F22DBA088009D0191 /* LunaRecordCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaRecordCharacter.m; sourceTree = "<group>"; };
+		F3CD7D5022DBA088009D0191 /* LunaRecordVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaRecordVault.h; sourceTree = "<group>"; };
+		F3CD7D5122DBA088009D0191 /* LunaCodingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaCodingProtocol.h; sourceTree = "<group>"; };
+		F3CD7D5222DBA088009D0191 /* LunaRecordRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaRecordRuler.h; sourceTree = "<group>"; };
+		F3CD7D5322DBA088009D0191 /* LunaFENCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaFENCoder.h; sourceTree = "<group>"; };
+		F3CD7D5422DBA088009D0191 /* LunaRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaRecord.m; sourceTree = "<group>"; };
+		F3CD7D5522DBA088009D0191 /* LunaRecordStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaRecordStack.m; sourceTree = "<group>"; };
+		F3CD7D5622DBA088009D0191 /* LunaRecordVault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunaRecordVault.m; sourceTree = "<group>"; };
+		F3CD7D5722DBA088009D0191 /* LunaRecordCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunaRecordCharacter.h; sourceTree = "<group>"; };
+		F3CD7D5822DBA088009D0191 /* Luna+Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Luna+Objc.h"; sourceTree = "<group>"; };
+		F3CD7D5922DBA088009D0191 /* Luna.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Luna.xcodeproj; sourceTree = "<group>"; };
+		F3CD7D8622DBA488009D0191 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F3CD7D8722DBB1A2009D0191 /* MagicalChineseChessBattle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicalChineseChessBattle.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CD7C6222DB9593009D0191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD7D8122DBA404009D0191 /* Luna.framework in Frameworks */,
+				39FA5081FDB409221B9FF5C5 /* Pods_MagicalChineseChessBattle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD46FCAC0417B357FB90EF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F59F81C7958C6B6819071D2 /* Pods_MagicalChineseChessBattle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8269CDB5362A5BE33CA0E1A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56057FDD618CB72A0BF01894 /* Pods-MagicalChineseChessBattle.debug.xcconfig */,
+				340C674FEDEF4668B35C1D27 /* Pods-MagicalChineseChessBattle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3CD7C5C22DB9593009D0191 = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C6722DB9593009D0191 /* MagicalChineseChessBattle */,
+				F3CD7C6622DB9593009D0191 /* Products */,
+				8269CDB5362A5BE33CA0E1A4 /* Pods */,
+				6CD46FCAC0417B357FB90EF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CD7C6622DB9593009D0191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C6522DB9593009D0191 /* MagicalChineseChessBattle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CD7C6722DB9593009D0191 /* MagicalChineseChessBattle */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D8722DBB1A2009D0191 /* MagicalChineseChessBattle.entitlements */,
+				F3CD7D1722DBA088009D0191 /* Luna */,
+				F3CD7D0322DBA016009D0191 /* Resources */,
+				F3CD7CC622DB9E06009D0191 /* ViewController */,
+				F3CD7CAE22DB9AA3009D0191 /* View */,
+				F3CD7CA122DB99DE009D0191 /* DataOperator */,
+				F3CD7C9E22DB9995009D0191 /* Macro */,
+				F3CD7C7A22DB9621009D0191 /* Libraries */,
+				F3CD7C6822DB9593009D0191 /* AppDelegate.swift */,
+				F3CD7C6A22DB9593009D0191 /* ViewController.swift */,
+				F3CD7C6C22DB9593009D0191 /* Main.storyboard */,
+				F3CD7C6F22DB9594009D0191 /* Assets.xcassets */,
+				F3CD7C7122DB9594009D0191 /* LaunchScreen.storyboard */,
+				F3CD7C7422DB9594009D0191 /* Info.plist */,
+				F3CD7D8622DBA488009D0191 /* Header.h */,
+			);
+			path = MagicalChineseChessBattle;
+			sourceTree = "<group>";
+		};
+		F3CD7C7A22DB9621009D0191 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C9B22DB9945009D0191 /* MultipeerConnectivity */,
+				F3CD7C8C22DB9721009D0191 /* UI+Extension */,
+				F3CD7C7B22DB962C009D0191 /* NS+Extension */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		F3CD7C7B22DB962C009D0191 /* NS+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C7C22DB964C009D0191 /* Value+Map.swift */,
+				F3CD7C7E22DB9669009D0191 /* Value+Random.swift */,
+				F3CD7C8022DB9681009D0191 /* Value+Mutating.swift */,
+				F3CD7C8222DB969B009D0191 /* Value+Meta.swift */,
+				F3CD7C8422DB96B1009D0191 /* Value+Property.swift */,
+				F3CD7C8622DB96D3009D0191 /* Array+Split.swift */,
+				F3CD7C8822DB96EC009D0191 /* Dictionay+Json.swift */,
+				F3CD7C8A22DB970F009D0191 /* NSObject+Class.swift */,
+			);
+			path = "NS+Extension";
+			sourceTree = "<group>";
+		};
+		F3CD7C8C22DB9721009D0191 /* UI+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C8D22DB97A0009D0191 /* UIColor+Hex.swift */,
+				F3CD7C8F22DB97B4009D0191 /* UIColor+Colors.swift */,
+				F3CD7C9122DB97C9009D0191 /* UIView+Layout.swift */,
+				F3CD7C9322DB97E5009D0191 /* UIView+Tap.swift */,
+				F3CD7C9522DB97F6009D0191 /* UIView+Window.swift */,
+				F3CD7C9722DB9808009D0191 /* UIImage+Color.swift */,
+				F3CD7C9922DB982F009D0191 /* UITableView+Update.swift */,
+			);
+			path = "UI+Extension";
+			sourceTree = "<group>";
+		};
+		F3CD7C9B22DB9945009D0191 /* MultipeerConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C9C22DB9966009D0191 /* MultipeerManager.swift */,
+			);
+			path = MultipeerConnectivity;
+			sourceTree = "<group>";
+		};
+		F3CD7C9E22DB9995009D0191 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7C9F22DB99A7009D0191 /* Macro.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		F3CD7CA122DB99DE009D0191 /* DataOperator */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CA222DB99F3009D0191 /* UserPreference.swift */,
+				F3CD7CA422DB9A21009D0191 /* ResourcesProvider.swift */,
+				F3CD7CA622DB9A3C009D0191 /* WavHandler.swift */,
+				F3CD7CA822DB9A51009D0191 /* UserFileHandler.swift */,
+				F3CD7CAA22DB9A68009D0191 /* LayoutPartner.swift */,
+				F3CD7CAC22DB9A8F009D0191 /* Objc+Extension.swift */,
+			);
+			path = DataOperator;
+			sourceTree = "<group>";
+		};
+		F3CD7CAE22DB9AA3009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CB122DB9B00009D0191 /* UI+Extension */,
+				F3CD7CB022DB9AF1009D0191 /* AlertView */,
+				F3CD7CAF22DB9ADC009D0191 /* NavigationView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7CAF22DB9ADC009D0191 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CB222DB9B14009D0191 /* NavigationView.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		F3CD7CB022DB9AF1009D0191 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CB422DB9B2F009D0191 /* LoadingAlertView.swift */,
+				F3CD7CB622DB9B53009D0191 /* TextAlertView.swift */,
+				F3CD7CB822DB9B6D009D0191 /* BladeAlertView.swift */,
+				F3CD7CBA22DB9B84009D0191 /* PromptAlertView.swift */,
+				F3CD7CBC22DB9BA3009D0191 /* InputAlertView.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		F3CD7CB122DB9B00009D0191 /* UI+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CBE22DB9BD2009D0191 /* UIViewController+PresentVC.swift */,
+				F3CD7CC022DB9CBE009D0191 /* UIButton+Golden.swift */,
+				F3CD7CC222DB9CE2009D0191 /* UIFont+KaiTi.swift */,
+				F3CD7CC422DB9CF6009D0191 /* UIVIew+Border.swift */,
+			);
+			path = "UI+Extension";
+			sourceTree = "<group>";
+		};
+		F3CD7CC622DB9E06009D0191 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CC722DB9E06009D0191 /* HistoryVC */,
+				F3CD7CCD22DB9E06009D0191 /* GameVC */,
+				F3CD7CD422DB9E06009D0191 /* EditVC */,
+				F3CD7CDA22DB9E06009D0191 /* MultiPeerVC */,
+				F3CD7CE322DB9E06009D0191 /* HomeVC.swift */,
+				F3CD7CE422DB9E06009D0191 /* ChessVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CC722DB9E06009D0191 /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CC822DB9E06009D0191 /* SubViewController */,
+				F3CD7CCA22DB9E06009D0191 /* HistoryVC.swift */,
+				F3CD7CCB22DB9E06009D0191 /* View */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		F3CD7CC822DB9E06009D0191 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CC922DB9E06009D0191 /* HistoryBoardController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CCB22DB9E06009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CCC22DB9E06009D0191 /* HistoryMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7CCD22DB9E06009D0191 /* GameVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CCE22DB9E06009D0191 /* SubViewController */,
+				F3CD7CD022DB9E06009D0191 /* GameVC.swift */,
+				F3CD7CD122DB9E06009D0191 /* View */,
+			);
+			path = GameVC;
+			sourceTree = "<group>";
+		};
+		F3CD7CCE22DB9E06009D0191 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CCF22DB9E06009D0191 /* GameBoardController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CD122DB9E06009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CD222DB9E06009D0191 /* GameSettingsView.swift */,
+				F3CD7CD322DB9E06009D0191 /* GameMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7CD422DB9E06009D0191 /* EditVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CD522DB9E06009D0191 /* SubViewController */,
+				F3CD7CD722DB9E06009D0191 /* EditVC.swift */,
+				F3CD7CD822DB9E06009D0191 /* View */,
+			);
+			path = EditVC;
+			sourceTree = "<group>";
+		};
+		F3CD7CD522DB9E06009D0191 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CD622DB9E06009D0191 /* EditBoardController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CD822DB9E06009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CD922DB9E06009D0191 /* EditChessesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7CDA22DB9E06009D0191 /* MultiPeerVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CDB22DB9E06009D0191 /* SubViewController */,
+				F3CD7CDD22DB9E06009D0191 /* Json */,
+				F3CD7CDF22DB9E06009D0191 /* MultiPeerVC.swift */,
+				F3CD7CE022DB9E06009D0191 /* View */,
+			);
+			path = MultiPeerVC;
+			sourceTree = "<group>";
+		};
+		F3CD7CDB22DB9E06009D0191 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CDC22DB9E06009D0191 /* MultiPeerBoardController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CDD22DB9E06009D0191 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CDE22DB9E06009D0191 /* MultiPeerJson.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		F3CD7CE022DB9E06009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CE122DB9E06009D0191 /* MultiPeerMenuView.swift */,
+				F3CD7CE222DB9E06009D0191 /* MultiPeerWaittingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7CE422DB9E06009D0191 /* ChessVC */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CE522DB9E06009D0191 /* SubViewController */,
+				F3CD7CE822DB9E06009D0191 /* ChessVC.swift */,
+				F3CD7CE922DB9E06009D0191 /* View */,
+			);
+			path = ChessVC;
+			sourceTree = "<group>";
+		};
+		F3CD7CE522DB9E06009D0191 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CE622DB9E06009D0191 /* ChessBoardController.swift */,
+				F3CD7CE722DB9E06009D0191 /* FlashLayerController.swift */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		F3CD7CE922DB9E06009D0191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7CEA22DB9E06009D0191 /* CharacterView.swift */,
+				F3CD7CEB22DB9E06009D0191 /* HistoryView.swift */,
+				F3CD7CEC22DB9E06009D0191 /* MenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3CD7D0322DBA016009D0191 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D0B22DBA079009D0191 /* AppInformation.txt */,
+				F3CD7D0C22DBA07A009D0191 /* KaiTi.ttf */,
+				F3CD7D0D22DBA07A009D0191 /* Vault.txt */,
+				F3CD7D0422DBA079009D0191 /* Wavs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3CD7D0422DBA079009D0191 /* Wavs */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D0522DBA079009D0191 /* check.wav */,
+				F3CD7D0622DBA079009D0191 /* mate.m4a */,
+				F3CD7D0722DBA079009D0191 /* select.wav */,
+				F3CD7D0822DBA079009D0191 /* 沧海龙吟.mp3 */,
+				F3CD7D0922DBA079009D0191 /* run.wav */,
+				F3CD7D0A22DBA079009D0191 /* eat.wav */,
+			);
+			path = Wavs;
+			sourceTree = "<group>";
+		};
+		F3CD7D1722DBA088009D0191 /* Luna */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D1822DBA088009D0191 /* Luna */,
+				F3CD7D5922DBA088009D0191 /* Luna.xcodeproj */,
+			);
+			path = Luna;
+			sourceTree = "<group>";
+		};
+		F3CD7D1822DBA088009D0191 /* Luna */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D1922DBA088009D0191 /* Luna.h */,
+				F3CD7D1A22DBA088009D0191 /* Luna */,
+				F3CD7D4522DBA088009D0191 /* Category */,
+				F3CD7D4822DBA088009D0191 /* Luna.m */,
+				F3CD7D4922DBA088009D0191 /* Info.plist */,
+				F3CD7D4A22DBA088009D0191 /* Vault */,
+			);
+			path = Luna;
+			sourceTree = "<group>";
+		};
+		F3CD7D1A22DBA088009D0191 /* Luna */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D1B22DBA088009D0191 /* Move */,
+				F3CD7D2422DBA088009D0191 /* Luna+C.h */,
+				F3CD7D2522DBA088009D0191 /* Position */,
+				F3CD7D2E22DBA088009D0191 /* Heuristic */,
+				F3CD7D3522DBA088009D0191 /* Search */,
+				F3CD7D3822DBA088009D0191 /* Const */,
+				F3CD7D3F22DBA088009D0191 /* Evaluate */,
+				F3CD7D4222DBA088009D0191 /* NextStep */,
+			);
+			path = Luna;
+			sourceTree = "<group>";
+		};
+		F3CD7D1B22DBA088009D0191 /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D1C22DBA088009D0191 /* Luna+MoveExist.h */,
+				F3CD7D1D22DBA088009D0191 /* Luna+MoveLegal.m */,
+				F3CD7D1E22DBA088009D0191 /* Luna+Generate.h */,
+				F3CD7D1F22DBA088009D0191 /* Luna+MoveNext.h */,
+				F3CD7D2022DBA088009D0191 /* Luna+Generate.m */,
+				F3CD7D2122DBA088009D0191 /* Luna+MoveLegal.h */,
+				F3CD7D2222DBA088009D0191 /* Luna+MoveExist.m */,
+				F3CD7D2322DBA088009D0191 /* Luna+MoveNext.m */,
+			);
+			path = Move;
+			sourceTree = "<group>";
+		};
+		F3CD7D2522DBA088009D0191 /* Position */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D2622DBA088009D0191 /* Luna+PositionDetect.m */,
+				F3CD7D2722DBA088009D0191 /* Luna+Position.h */,
+				F3CD7D2822DBA088009D0191 /* Luna+PositionLegal.h */,
+				F3CD7D2922DBA088009D0191 /* Luna+PositionChanged.m */,
+				F3CD7D2A22DBA088009D0191 /* Luna+PositionDetect.h */,
+				F3CD7D2B22DBA088009D0191 /* Luna+Position.m */,
+				F3CD7D2C22DBA088009D0191 /* Luna+PositionChanged.h */,
+				F3CD7D2D22DBA088009D0191 /* Luna+PositionLegal.m */,
+			);
+			path = Position;
+			sourceTree = "<group>";
+		};
+		F3CD7D2E22DBA088009D0191 /* Heuristic */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D2F22DBA088009D0191 /* Luna+Heuristic.h */,
+				F3CD7D3022DBA088009D0191 /* Luna+Killer.m */,
+				F3CD7D3122DBA088009D0191 /* Luna+Hash.h */,
+				F3CD7D3222DBA088009D0191 /* Luna+Heuristic.m */,
+				F3CD7D3322DBA088009D0191 /* Luna+Killer.h */,
+				F3CD7D3422DBA088009D0191 /* Luna+Hash.m */,
+			);
+			path = Heuristic;
+			sourceTree = "<group>";
+		};
+		F3CD7D3522DBA088009D0191 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D3622DBA088009D0191 /* Luna+PVS.h */,
+				F3CD7D3722DBA088009D0191 /* Luna+PVS.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F3CD7D3822DBA088009D0191 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D3922DBA088009D0191 /* Luna+PreGenerate.h */,
+				F3CD7D3A22DBA088009D0191 /* Luna+Const.h */,
+				F3CD7D3B22DBA088009D0191 /* Luna+PreGenerate.m */,
+				F3CD7D3C22DBA088009D0191 /* Luna+Typedef.h */,
+				F3CD7D3D22DBA088009D0191 /* Luna+Const.m */,
+				F3CD7D3E22DBA088009D0191 /* Luna+Settings.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		F3CD7D3F22DBA088009D0191 /* Evaluate */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D4022DBA088009D0191 /* Luna+Evaluate.h */,
+				F3CD7D4122DBA088009D0191 /* Luna+Evaluate.m */,
+			);
+			path = Evaluate;
+			sourceTree = "<group>";
+		};
+		F3CD7D4222DBA088009D0191 /* NextStep */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D4322DBA088009D0191 /* Luna+NextStep.m */,
+				F3CD7D4422DBA088009D0191 /* Luna+NextStep.h */,
+			);
+			path = NextStep;
+			sourceTree = "<group>";
+		};
+		F3CD7D4522DBA088009D0191 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D4622DBA088009D0191 /* NSString+Subscript.h */,
+				F3CD7D4722DBA088009D0191 /* NSString+Subscript.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F3CD7D4A22DBA088009D0191 /* Vault */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D4B22DBA088009D0191 /* LunaFENCoder.m */,
+				F3CD7D4C22DBA088009D0191 /* LunaRecordRuler.m */,
+				F3CD7D4D22DBA088009D0191 /* LunaRecordStack.h */,
+				F3CD7D4E22DBA088009D0191 /* LunaRecord.h */,
+				F3CD7D4F22DBA088009D0191 /* LunaRecordCharacter.m */,
+				F3CD7D5022DBA088009D0191 /* LunaRecordVault.h */,
+				F3CD7D5122DBA088009D0191 /* LunaCodingProtocol.h */,
+				F3CD7D5222DBA088009D0191 /* LunaRecordRuler.h */,
+				F3CD7D5322DBA088009D0191 /* LunaFENCoder.h */,
+				F3CD7D5422DBA088009D0191 /* LunaRecord.m */,
+				F3CD7D5522DBA088009D0191 /* LunaRecordStack.m */,
+				F3CD7D5622DBA088009D0191 /* LunaRecordVault.m */,
+				F3CD7D5722DBA088009D0191 /* LunaRecordCharacter.h */,
+				F3CD7D5822DBA088009D0191 /* Luna+Objc.h */,
+			);
+			path = Vault;
+			sourceTree = "<group>";
+		};
+		F3CD7D5A22DBA088009D0191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD7D5E22DBA088009D0191 /* Luna.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CD7C6422DB9593009D0191 /* MagicalChineseChessBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CD7C7722DB9594009D0191 /* Build configuration list for PBXNativeTarget "MagicalChineseChessBattle" */;
+			buildPhases = (
+				02AF3B8A835F3D12D096F7F4 /* [CP] Check Pods Manifest.lock */,
+				F3CD7C6122DB9593009D0191 /* Sources */,
+				F3CD7C6222DB9593009D0191 /* Frameworks */,
+				F3CD7C6322DB9593009D0191 /* Resources */,
+				4D9C80E53A1F214980FE0440 /* [CP] Embed Pods Frameworks */,
+				F3CD7D8522DBA404009D0191 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CD7D8422DBA404009D0191 /* PBXTargetDependency */,
+			);
+			name = MagicalChineseChessBattle;
+			productName = MagicalChineseChessBattle;
+			productReference = F3CD7C6522DB9593009D0191 /* MagicalChineseChessBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CD7C5D22DB9593009D0191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Cranberry;
+				TargetAttributes = {
+					F3CD7C6422DB9593009D0191 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F3CD7C6022DB9593009D0191 /* Build configuration list for PBXProject "MagicalChineseChessBattle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CD7C5C22DB9593009D0191;
+			productRefGroup = F3CD7C6622DB9593009D0191 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3CD7D5A22DBA088009D0191 /* Products */;
+					ProjectRef = F3CD7D5922DBA088009D0191 /* Luna.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F3CD7C6422DB9593009D0191 /* MagicalChineseChessBattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F3CD7D5E22DBA088009D0191 /* Luna.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Luna.framework;
+			remoteRef = F3CD7D5D22DBA088009D0191 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CD7C6322DB9593009D0191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD7D1222DBA07A009D0191 /* run.wav in Resources */,
+				F3CD7C7322DB9594009D0191 /* LaunchScreen.storyboard in Resources */,
+				F3CD7C7022DB9594009D0191 /* Assets.xcassets in Resources */,
+				F3CD7D1322DBA07A009D0191 /* eat.wav in Resources */,
+				F3CD7C6E22DB9593009D0191 /* Main.storyboard in Resources */,
+				F3CD7D1122DBA07A009D0191 /* 沧海龙吟.mp3 in Resources */,
+				F3CD7D0F22DBA07A009D0191 /* mate.m4a in Resources */,
+				F3CD7D1022DBA07A009D0191 /* select.wav in Resources */,
+				F3CD7D0E22DBA07A009D0191 /* check.wav in Resources */,
+				F3CD7D1522DBA07A009D0191 /* KaiTi.ttf in Resources */,
+				F3CD7D1422DBA07A009D0191 /* AppInformation.txt in Resources */,
+				F3CD7D1622DBA07A009D0191 /* Vault.txt in Resources */,
+				F3CD7D7122DBA088009D0191 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02AF3B8A835F3D12D096F7F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalChineseChessBattle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9C80E53A1F214980FE0440 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalChineseChessBattle/Pods-MagicalChineseChessBattle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalChineseChessBattle/Pods-MagicalChineseChessBattle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicalChineseChessBattle/Pods-MagicalChineseChessBattle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CD7C6122DB9593009D0191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD7C8122DB9681009D0191 /* Value+Mutating.swift in Sources */,
+				F3CD7CC322DB9CE2009D0191 /* UIFont+KaiTi.swift in Sources */,
+				F3CD7CA922DB9A51009D0191 /* UserFileHandler.swift in Sources */,
+				F3CD7C9022DB97B4009D0191 /* UIColor+Colors.swift in Sources */,
+				F3CD7C6B22DB9593009D0191 /* ViewController.swift in Sources */,
+				F3CD7CAD22DB9A8F009D0191 /* Objc+Extension.swift in Sources */,
+				F3CD7CFE22DB9E06009D0191 /* FlashLayerController.swift in Sources */,
+				F3CD7CB522DB9B2F009D0191 /* LoadingAlertView.swift in Sources */,
+				F3CD7CF422DB9E06009D0191 /* EditBoardController.swift in Sources */,
+				F3CD7D6922DBA088009D0191 /* Luna+Hash.m in Sources */,
+				F3CD7CB722DB9B53009D0191 /* TextAlertView.swift in Sources */,
+				F3CD7CFB22DB9E06009D0191 /* MultiPeerWaittingView.swift in Sources */,
+				F3CD7C8722DB96D3009D0191 /* Array+Split.swift in Sources */,
+				F3CD7D6C22DBA088009D0191 /* Luna+Const.m in Sources */,
+				F3CD7D7422DBA088009D0191 /* LunaRecordCharacter.m in Sources */,
+				F3CD7C6922DB9593009D0191 /* AppDelegate.swift in Sources */,
+				F3CD7D7222DBA088009D0191 /* LunaFENCoder.m in Sources */,
+				F3CD7D6B22DBA088009D0191 /* Luna+PreGenerate.m in Sources */,
+				F3CD7C8B22DB970F009D0191 /* NSObject+Class.swift in Sources */,
+				F3CD7D7722DBA088009D0191 /* LunaRecordVault.m in Sources */,
+				F3CD7CF722DB9E06009D0191 /* MultiPeerBoardController.swift in Sources */,
+				F3CD7CB922DB9B6D009D0191 /* BladeAlertView.swift in Sources */,
+				F3CD7D6722DBA088009D0191 /* Luna+Killer.m in Sources */,
+				F3CD7D7022DBA088009D0191 /* Luna.m in Sources */,
+				F3CD7CF622DB9E06009D0191 /* EditChessesView.swift in Sources */,
+				F3CD7CBB22DB9B84009D0191 /* PromptAlertView.swift in Sources */,
+				F3CD7C9622DB97F6009D0191 /* UIView+Window.swift in Sources */,
+				F3CD7CAB22DB9A68009D0191 /* LayoutPartner.swift in Sources */,
+				F3CD7C9D22DB9966009D0191 /* MultipeerManager.swift in Sources */,
+				F3CD7CC122DB9CBE009D0191 /* UIButton+Golden.swift in Sources */,
+				F3CD7D0222DB9E06009D0191 /* MenuView.swift in Sources */,
+				F3CD7D6F22DBA088009D0191 /* NSString+Subscript.m in Sources */,
+				F3CD7CA522DB9A21009D0191 /* ResourcesProvider.swift in Sources */,
+				F3CD7CF122DB9E06009D0191 /* GameVC.swift in Sources */,
+				F3CD7D7622DBA088009D0191 /* LunaRecordStack.m in Sources */,
+				F3CD7CF222DB9E06009D0191 /* GameSettingsView.swift in Sources */,
+				F3CD7CFF22DB9E06009D0191 /* ChessVC.swift in Sources */,
+				F3CD7C8E22DB97A0009D0191 /* UIColor+Hex.swift in Sources */,
+				F3CD7D6622DBA088009D0191 /* Luna+PositionLegal.m in Sources */,
+				F3CD7D6822DBA088009D0191 /* Luna+Heuristic.m in Sources */,
+				F3CD7CF522DB9E06009D0191 /* EditVC.swift in Sources */,
+				F3CD7D6022DBA088009D0191 /* Luna+Generate.m in Sources */,
+				F3CD7C9222DB97C9009D0191 /* UIView+Layout.swift in Sources */,
+				F3CD7C9A22DB982F009D0191 /* UITableView+Update.swift in Sources */,
+				F3CD7CED22DB9E06009D0191 /* HistoryBoardController.swift in Sources */,
+				F3CD7CF922DB9E06009D0191 /* MultiPeerVC.swift in Sources */,
+				F3CD7C9822DB9808009D0191 /* UIImage+Color.swift in Sources */,
+				F3CD7CFD22DB9E06009D0191 /* ChessBoardController.swift in Sources */,
+				F3CD7CA722DB9A3C009D0191 /* WavHandler.swift in Sources */,
+				F3CD7D7322DBA088009D0191 /* LunaRecordRuler.m in Sources */,
+				F3CD7CBD22DB9BA3009D0191 /* InputAlertView.swift in Sources */,
+				F3CD7D6D22DBA088009D0191 /* Luna+Evaluate.m in Sources */,
+				F3CD7D6122DBA088009D0191 /* Luna+MoveExist.m in Sources */,
+				F3CD7CF822DB9E06009D0191 /* MultiPeerJson.swift in Sources */,
+				F3CD7D0022DB9E06009D0191 /* CharacterView.swift in Sources */,
+				F3CD7D6A22DBA088009D0191 /* Luna+PVS.m in Sources */,
+				F3CD7D6322DBA088009D0191 /* Luna+PositionDetect.m in Sources */,
+				F3CD7D6E22DBA088009D0191 /* Luna+NextStep.m in Sources */,
+				F3CD7C8922DB96EC009D0191 /* Dictionay+Json.swift in Sources */,
+				F3CD7D6422DBA088009D0191 /* Luna+PositionChanged.m in Sources */,
+				F3CD7D6222DBA088009D0191 /* Luna+MoveNext.m in Sources */,
+				F3CD7CA322DB99F3009D0191 /* UserPreference.swift in Sources */,
+				F3CD7C7F22DB9669009D0191 /* Value+Random.swift in Sources */,
+				F3CD7D5F22DBA088009D0191 /* Luna+MoveLegal.m in Sources */,
+				F3CD7C8522DB96B1009D0191 /* Value+Property.swift in Sources */,
+				F3CD7D7522DBA088009D0191 /* LunaRecord.m in Sources */,
+				F3CD7CBF22DB9BD2009D0191 /* UIViewController+PresentVC.swift in Sources */,
+				F3CD7CFC22DB9E06009D0191 /* HomeVC.swift in Sources */,
+				F3CD7CF022DB9E06009D0191 /* GameBoardController.swift in Sources */,
+				F3CD7C8322DB969B009D0191 /* Value+Meta.swift in Sources */,
+				F3CD7CC522DB9CF6009D0191 /* UIVIew+Border.swift in Sources */,
+				F3CD7CB322DB9B14009D0191 /* NavigationView.swift in Sources */,
+				F3CD7C9422DB97E5009D0191 /* UIView+Tap.swift in Sources */,
+				F3CD7D0122DB9E06009D0191 /* HistoryView.swift in Sources */,
+				F3CD7CFA22DB9E06009D0191 /* MultiPeerMenuView.swift in Sources */,
+				F3CD7D6522DBA088009D0191 /* Luna+Position.m in Sources */,
+				F3CD7C7D22DB964C009D0191 /* Value+Map.swift in Sources */,
+				F3CD7CEE22DB9E06009D0191 /* HistoryVC.swift in Sources */,
+				F3CD7CF322DB9E06009D0191 /* GameMenuView.swift in Sources */,
+				F3CD7CEF22DB9E06009D0191 /* HistoryMenuView.swift in Sources */,
+				F3CD7CA022DB99A7009D0191 /* Macro.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CD7D8422DBA404009D0191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Luna;
+			targetProxy = F3CD7D8322DBA404009D0191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3CD7C6C22DB9593009D0191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CD7C6D22DB9593009D0191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3CD7C7122DB9594009D0191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CD7C7222DB9594009D0191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CD7C7522DB9594009D0191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CD7C7622DB9594009D0191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CD7C7822DB9594009D0191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56057FDD618CB72A0BF01894 /* Pods-MagicalChineseChessBattle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MagicalChineseChessBattle/MagicalChineseChessBattle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZMPQV5A87;
+				INFOPLIST_FILE = MagicalChineseChessBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagicalChineseChessBattle.MagicalChineseChessBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3CD7C7922DB9594009D0191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340C674FEDEF4668B35C1D27 /* Pods-MagicalChineseChessBattle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MagicalChineseChessBattle/MagicalChineseChessBattle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YZMPQV5A87;
+				INFOPLIST_FILE = MagicalChineseChessBattle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MagicalChineseChessBattle.MagicalChineseChessBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PRODUCT_NAME)/Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CD7C6022DB9593009D0191 /* Build configuration list for PBXProject "MagicalChineseChessBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD7C7522DB9594009D0191 /* Debug */,
+				F3CD7C7622DB9594009D0191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CD7C7722DB9594009D0191 /* Build configuration list for PBXNativeTarget "MagicalChineseChessBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD7C7822DB9594009D0191 /* Debug */,
+				F3CD7C7922DB9594009D0191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CD7C5D22DB9593009D0191 /* Project object */;
+}
